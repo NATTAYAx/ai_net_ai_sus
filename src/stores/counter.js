@@ -107,42 +107,12 @@ const Art_list  = ref([
 },
 {
     id: 'art11',
-    title: '☕',
-    Owned_by: 'Master1305',
-    price: 235.00,
-    description: 'Caffeine in coffee beans Will awaken from sleep It our nature when we just wake up. There will be a feeling of drowsiness.',
-    descriptionfull: 'Caffeine found in coffee beans has the natural ability to help rouse us from sleep. When we first wake up, its common to experience a sensation of drowsiness. However, the caffeine in coffee serves as a natural stimulant, helping to counteract this morning grogginess and promoting wakefulness.',
-    image: 'https://www.shutterstock.com/shutterstock/photos/1909641286/display_1500/stock-photo-morning-coffee-makes-things-better-comics-styled-yellow-suit-modern-design-contemporary-art-1909641286.jpg',
-    category: 'Art'
-},
-{
-    id: 'art12',
-    title: 'Paper Moon',
-    Owned_by: 'yesdoubleyes',
-    price: 1325.65,
-    description: 'Weird surreal dreamscape abstracts for music visualizers, acid flashback montages, strange and glitchy effects that hypnotize and inspire',
-    descriptionfull: 'Imagine a world of bizarre and surreal dreamscape abstracts tailored for music visualizers. These abstracts are like acid flashback montages, where strange and glitchy effects come together to create a hypnotic and inspirational experience. They transport you to a realm where the boundaries of reality blur, setting the stage for a mesmerizing journey that both bewilders and sparks creativity.',
-    image: 'https://www.shutterstock.com/shutterstock/photos/2144014629/display_1500/stock-vector-forest-layered-paper-cut-out-style-forest-vector-file-shadow-box-idea-layered-paper-cut-design-2144014629.jpg',
-    category: 'Art'
-},
-{
-    id: 'art11',
     title: 'pagoda tower',
     Owned_by: 'Jonistudio' ,
     price: 1846.00 ,
     description: "pagoda tower on the side of a quiet flowing river with cherry trees. background of Mount Fujiyama, afternoon atmosphere.",
     descriptionfull: 'Along the serene banks of a tranquil, meandering river, a graceful pagoda tower stands proudly, nestled amidst a picturesque setting of cherry trees in full bloom. In the distance, the iconic silhouette of Mount Fujiyama dominates the background, its majestic presence gracing the landscape. The late afternoon sun casts a warm and enchanting glow, creating a soothing atmosphere that invites contemplation and appreciation of the natural beauty that surrounds you.',
     image: "https://www.shutterstock.com/shutterstock/photos/2322034225/display_1500/stock-vector-japan-landscape-flat-vector-art-illustration-retro-vintage-background-2322034225.jpg",
-    category: 'Art'
-},
-{
-    id: 'art13',
-    title: 'heart musical',
-    Owned_by: 'rogistok',
-    price: 256.00,
-    description: 'Music in your heart that is free in life orchestral musical instruments Cartoon cartoon pop art vector illustration, retro vintage art',
-    descriptionfull: 'Imagine the joy of having music in your heart, a melody that symbolizes the freedom of life. In this whimsical, cartoon-inspired scene, orchestral musical instruments come to life, embodying the vivacity of pop art in a delightful vector illustration. This composition exudes a retro vintage charm, capturing the timeless appeal of art and the boundless energy of music thats deeply ingrained in the human spirit.',
-    image: 'https://www.shutterstock.com/shutterstock/photos/1021588924/display_1500/stock-vector-music-in-the-heart-musical-orchestral-instruments-comic-cartoon-pop-art-illustration-retro-1021588924.jpg',
     category: 'Art'
 },
 {
@@ -153,6 +123,16 @@ const Art_list  = ref([
     description: 'Vector Seamless pattern with joysticks gamepad illustration and slogan text, for t-shirt prints and other uses.',
     descriptionfull: "This captivating vector seamless pattern features a lively illustration of joysticks and gamepads, coupled with an engaging slogan text. It's a perfect choice for t-shirt prints and various other creative applications. Whether you're a gamer or simply appreciate the aesthetics of gaming culture, this design offers a dynamic and visually appealing way to express your passion and style.",
     image: 'https://www.shutterstock.com/shutterstock/photos/1805459848/display_1500/stock-vector-vector-seamless-pattern-with-joysticks-gamepad-illustration-and-slogan-text-for-t-shirt-prints-1805459848.jpg',
+    category: 'Art'
+},
+{
+    id: 'art13',
+    title: 'heart musical',
+    Owned_by: 'rogistok',
+    price: 256.00,
+    description: 'Music in your heart that is free in life orchestral musical instruments Cartoon cartoon pop art vector illustration, retro vintage art',
+    descriptionfull: 'Imagine the joy of having music in your heart, a melody that symbolizes the freedom of life. In this whimsical, cartoon-inspired scene, orchestral musical instruments come to life, embodying the vivacity of pop art in a delightful vector illustration. This composition exudes a retro vintage charm, capturing the timeless appeal of art and the boundless energy of music thats deeply ingrained in the human spirit.',
+    image: 'https://www.shutterstock.com/shutterstock/photos/1021588924/display_1500/stock-vector-music-in-the-heart-musical-orchestral-instruments-comic-cartoon-pop-art-illustration-retro-1021588924.jpg',
     category: 'Art'
 },
 {
@@ -244,7 +224,16 @@ const Art_list  = ref([
     image: 'https://www.shutterstock.com/shutterstock/photos/2226852425/display_1500/stock-vector-vector-art-illustration-cyber-cat-2226852425.jpg',
     category: 'Art'
 },
-
+{
+    id: 'art23',
+    title: '☕',
+    Owned_by: 'Master1305',
+    price: 235.00,
+    description: 'Caffeine in coffee beans Will awaken from sleep It our nature when we just wake up. There will be a feeling of drowsiness.',
+    descriptionfull: 'Caffeine found in coffee beans has the natural ability to help rouse us from sleep. When we first wake up, its common to experience a sensation of drowsiness. However, the caffeine in coffee serves as a natural stimulant, helping to counteract this morning grogginess and promoting wakefulness.',
+    image: 'https://www.shutterstock.com/shutterstock/photos/1909641286/display_1500/stock-photo-morning-coffee-makes-things-better-comics-styled-yellow-suit-modern-design-contemporary-art-1909641286.jpg',
+    category: 'Art'
+},
 
 
 ])
