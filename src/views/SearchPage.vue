@@ -8,10 +8,13 @@
           <p class="card-text">Id: {{ result.id }}</p>
           <p class="card-text">Owner: {{ result.Owned_by }}</p>
           <p class="card-text">Category: {{ result.category }}</p>
-          <router-link v-if="result.category === 'Photography'" :to="`/Product_Photography/${result.id}`" class="btn btn-primary">รายละเอียด</router-link>
-          <router-link v-else-if="result.category === 'Art'" :to="`/Product_Vue/${result.id}`" class="btn btn-primary">รายละเอียด</router-link>
-          <router-link v-else-if="result.category === 'Game'" :to="`/Product_Game/${result.id}`" class="btn btn-primary">รายละเอียด</router-link>
-          <button class="btn btn-success mx-2" @click="cart_store.add_cart(result.id, result.price)">เพิ่มลงตะกร้า</button>
+          <router-link v-if="result.category === 'Pho'" :to="`/Product_Photography/${result.id}`"
+            class="btn btn-primary">รายละเอียด</router-link>
+          <router-link v-else-if="result.category === 'Art'" :to="`/Product_Vue/${result.id}`"
+            class="btn btn-primary">รายละเอียด</router-link>
+          <router-link v-else-if="result.category === 'Game'" :to="`/Product_Game/${result.id}`"
+            class="btn btn-primary">รายละเอียด</router-link>
+          <button class="btn btn-success mx-2" @click="AddToCart(product)">เพิ่มสินค้า</button>
         </div>
       </div>
     </div>
@@ -22,6 +25,11 @@
 import { ref, onMounted, watch } from 'vue';
 import { useArt_listStore, useGame_listStore, usePhotography_listStore } from '@/stores/counter.js';
 import { useRoute } from 'vue-router';
+import { addToCart } from '../stores/cart.js';
+const AddToCart = (item) => {
+  addToCart(item);
+  console.log(item)
+}
 
 const route = useRoute();
 const searchQuery = ref(route.query.q || '');

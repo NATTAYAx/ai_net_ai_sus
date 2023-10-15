@@ -704,13 +704,7 @@ export const usePhotography_listStore = defineStore('Photography_list', () => {
             image: 'https://i.pinimg.com/564x/a3/13/27/a31327758496fa7708be4863b477b110.jpg',
             category: 'Pho'
         },
-
-
-
-
     ])
-
-
     return { Photography_list }
 })
 
